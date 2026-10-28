@@ -1,0 +1,4 @@
+Model,MAE_hours,RMSE_hours,R2
+Mean baseline,1.208611,1.573951,-0.2339
+Linear Regression,0.566964,0.674304,0.773531
+Tuned Decision Tree,0.95979,1.076687,0.4226

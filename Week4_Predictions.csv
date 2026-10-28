@@ -1,0 +1,19 @@
+Distance_km,Shipment_Volume,Route,Vehicle_Type,Actual_Delivery_Time_hours,Predicted_Delivery_Time_hours,Absolute_Error_hours,Illustrative_Review_Flag
+189.6,31,Route A,Van,6.51,5.6279,0.8821,No flag
+181.2,41,Route D,Mini Truck,5.6,5.5429,0.0571,No flag
+199.4,22,Route B,Mini Truck,5.71,5.9774,0.2674,No flag
+201.1,88,Route D,Mini Truck,6.97,6.6066,0.3634,Review
+55.1,87,Route E,Mini Truck,4.52,4.5671,0.0471,No flag
+139.3,63,Route B,Van,6.11,5.2527,0.8573,No flag
+314.3,13,Route E,Mini Truck,9.43,9.3183,0.1117,Review
+196.9,14,Route E,Van,7.45,6.7956,0.6544,Review
+252.1,30,Route E,Truck,8.97,8.1924,0.7776,Review
+176.5,72,Route C,Truck,7.07,6.9024,0.1676,Review
+323.8,42,Route A,Truck,8.08,8.7057,0.6257,Review
+186.1,6,Route C,Mini Truck,5.79,6.2149,0.4249,No flag
+227.3,69,Route B,Van,8.24,7.2788,0.9612,Review
+94.4,65,Route B,Truck,5.0,4.2497,0.7503,No flag
+236.9,32,Route B,Van,5.55,7.0002,1.4502,Review
+237.8,39,Route D,Van,6.45,6.8289,0.3789,Review
+235.1,70,Route C,Van,9.1,8.2085,0.8915,Review
+140.8,97,Route D,Van,5.99,5.453,0.537,No flag
