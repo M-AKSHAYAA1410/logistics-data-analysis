@@ -211,3 +211,111 @@ This is a hypothetical dataset created for educational purposes. The on-time del
 ### Conclusion
 This task provided practical experience in Python-based exploratory data analysis, descriptive statistics, correlation analysis, data visualization and logistics performance interpretation. The findings demonstrate how data analysis can help identify patterns, compare routes, investigate potential bottlenecks and develop data-driven recommendations.
 
+# Week 4: Predictive Modeling and Optimization in Logistics Systems
+
+## Project Overview
+
+This project focuses on applying machine learning techniques to predict shipment delivery times and explore strategies for improving logistics operations.
+
+Using a hypothetical logistics dataset containing 90 shipment records, predictive models were developed and evaluated using Python.
+
+The project compares Linear Regression, Decision Tree Regression and a baseline model to identify an effective approach for estimating delivery time.
+
+## Objectives
+
+- Predict shipment delivery time using machine learning.
+- Perform data preprocessing and feature selection.
+- Train and evaluate regression models.
+- Compare model performance using MAE, RMSE, and R².
+- Apply cross-validation and hyperparameter tuning.
+- Recommend strategies for improving logistics efficiency.
+
+## Dataset Description
+
+**Dataset:** `Week3_Hypothetical_Logistics_Dataset.csv`
+
+- Total Records: 90
+- Total Columns: 10
+- Missing Values: 0
+- Duplicate Records: 0
+
+**Target Variable:** `Delivery_Time_hours`
+
+**Predictor Features:**
+- `Distance_km`
+- `Shipment_Volume`
+- `Route`
+- `Vehicle_Type`
+
+The dataset is simulated and used for educational analysis.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Google Colab
+
+## Project Workflow
+
+1. **Data Preparation:** Loaded and inspected the dataset, selected relevant features and applied preprocessing.
+2. **Model Training:** Trained a baseline model, Linear Regression, and Decision Tree Regressor.
+3. **Hyperparameter Tuning:** Used GridSearchCV to tune Decision Tree parameters.
+4. **Model Evaluation:** Compared models using MAE, RMSE, and R² on a held-out test set.
+5. **Cross-Validation:** Applied five-fold cross-validation to assess Linear Regression performance.
+6. **Visualization:** Created actual-versus-predicted and residual plots.
+7. **Optimization Recommendations:** Proposed improvements for delivery planning, route monitoring and resource allocation.
+
+## Model Performance
+
+The dataset was divided into 80% training data and 20% testing data.
+
+| Model | MAE (hours) | RMSE (hours) | R² |
+|---|---:|---:|---:|
+| Mean Baseline | 1.209 | 1.574 | -0.234 |
+| Linear Regression | **0.567** | **0.674** | **0.774** |
+| Tuned Decision Tree | 0.960 | 1.077 | 0.423 |
+
+**Best Performing Model: Linear Regression**
+
+Linear Regression achieved the lowest test-set prediction error among the evaluated models, with an MAE of approximately 34 minutes.
+
+## Key Findings
+
+- Linear Regression performed better than the baseline and tuned Decision Tree on the held-out test set.
+- The model achieved an R² score of 0.774, explaining approximately 77.4% of the variation in delivery times in the test sample.
+- Route E showed a higher average delivery time in the previous exploratory analysis, suggesting an area for further investigation.
+- Predictive modeling can support delivery planning and early identification of shipments requiring attention.
+
+## Optimization Recommendations
+
+- Identify shipments at risk of exceeding their planned delivery windows.
+- Investigate routes with consistently higher delivery times.
+- Improve dispatch planning and vehicle allocation using predicted delivery times.
+- Collect additional operational information such as traffic, weather and loading delays.
+- Monitor model performance using new shipment records before real-world deployment.
+
+## How to Run the Project
+
+1. Open Google Colab.
+2. Upload `Week3_Hypothetical_Logistics_Dataset.csv`.
+3. Open the Week 4 Python notebook or script.
+4. Run the code cells sequentially.
+5. Review the model evaluation results and visualizations.
+6. Download the generated prediction and model comparison CSV files.
+
+## Project Files
+
+- `Week3_Hypothetical_Logistics_Dataset.csv` — Hypothetical logistics dataset.
+- `Week4_Logistics_Predictive_Model.py` — Python predictive modeling implementation.
+- `Week4_Predictive_Modeling_and_Optimization.docx` — Detailed project report.
+
+## Limitations
+
+This project uses a small hypothetical dataset. The findings demonstrate a predictive modeling workflow but do not guarantee real-world performance. Actual deployment would require larger datasets, additional operational features and time-aware validation.
+
+## Conclusion
+
+This project demonstrates how predictive modeling can be applied to logistics delivery-time estimation. Linear Regression achieved the best test-set performance among the evaluated models, while the analysis provided recommendations for improving shipment monitoring, delivery planning and operational decision-making.
