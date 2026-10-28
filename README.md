@@ -50,6 +50,8 @@ The Week 1 analysis includes:
 - `Week1_Logistics_Analysis.ipynb` – Python analysis notebook
 - `Daily_Demand_Forecasting_Orders.csv` – Dataset used for analysis
 - `Strategic Planning and Data Exploration in Logistics.docx` – Week 1 strategic planning report
+- Week4_Model_Comparison.csv — Model evaluation results.
+- Week4_Predictions.csv — Shipment delivery-time predictions.
 
 ## Expected Outcomes
 
